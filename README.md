@@ -1,6 +1,9 @@
 # Covergroup Cross
 As the title suggests, the focus of this review is functional coverage in SystemVerilog using the covergroup, coverpoint, cross, etc. hardware verification language (HVL) constructs in the context of simulation-based verification.
 
+## Key takeaways
+__*systemverilog covergroup / coverpoint / cross coverage constructs*__, __*sampling coverage values with "sample()" method*__
+
 The source code uses a class object with a few class members and a coverage model. It uses a program with the following sequence:
 1. Invoke the "run()" method of the "MyTest" instance in the SystemVerilog program to iterate:
 2. Assigning the current value of the nested loop to the class member fields; and
