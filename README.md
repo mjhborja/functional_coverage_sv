@@ -5,14 +5,14 @@ As the title suggests, the focus of this review is functional coverage in System
 __*systemverilog covergroup / coverpoint / cross coverage constructs*__, __*sampling coverage values with "sample()" method*__
 
 ## What will you learn here?
-Coverage is at the core of every functional verification effort. This is embodied by the SystemVerilog HVL in two ways. And the covergroup coverage consrtuct is one of them. In a nutshell, to use a covergroup, you have to define the coverage model using coverpoints and cross coverage, and then associate its sampling to either a sensitivity "@" or by invoking the "sample()" method every time you intend to add the current state of the coverage model into your coverage database [1].
+Coverage is at the core of every functional verification effort. This is embodied by the SystemVerilog HVL in two ways. And the covergroup coverage construct is one of them. In a nutshell, to use a covergroup, you have to define the coverage model using coverpoints and cross coverage, and then associate its sampling to either a sensitivity "@" or by invoking the "sample()" method every time you intend to add the current state of the coverage model into your coverage database [1].
 
 The source code uses a class object with a few class members and a coverage model. It uses a program with the following sequence:
 1. Invoke the "run()" method of the "MyTest" instance in the SystemVerilog program to iterate:
 2. Assigning the current value of the nested loop to the class member fields; and
 3. Invoking the covergroup "sample()" method.
 
-![diagram_002 1-functional_coverage_sv_sequence_diagram](https://user-images.githubusercontent.com/50364461/212470301-d718ab46-f262-4a12-95fd-7d10de3cbedf.png)
+![diagram_002 1-functional_coverage_sv_sequence_diagram](https://user-images.githubusercontent.com/50364461/212475474-5a3cb048-7594-42e8-bfc2-d9f5064a8bc6.png)
 
 ## Simulate & play with the code
 EDA Playground Example - Covergroup Cross https://www.edaplayground.com/x/2xD8
