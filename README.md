@@ -2,7 +2,7 @@
 As the title suggests, the focus of this review is functional coverage in SystemVerilog using the covergroup, coverpoint, cross, etc. hardware verification language (HVL) constructs in the context of simulation-based verification.
 
 ## Key takeaways
-__*systemverilog covergroup / coverpoint / cross coverage constructs*__, __*sampling coverage values with "sample()" method*__
+__*systemverilog coverage constructs*__, __*coverage sampling*__
 
 ## What will you learn here?
 Coverage is at the core of every functional verification effort. This is embodied by the SystemVerilog HVL in two ways. And the covergroup coverage construct is one of them. In a nutshell, to use a covergroup, you have to define the coverage model using coverpoints and cross coverage, and then associate its sampling to either a sensitivity "@" or by invoking the "sample()" method every time you intend to add the current state of the coverage model into your coverage database [1].
