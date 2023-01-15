@@ -190,12 +190,15 @@ class MyTest;
     for (int i = 0; i < 2**$size(dat1); i++) begin
       for (int j = 0; j < 2**$size(dat2); j++) begin
         for (int k = 0; k < 2**$size(face); k++) begin
-          // Set member field values
+          /* Program Sequence - 2. 
+             Assign current loop variable values to class member fields
+           */
           dat1 = i;
           dat2 = j;
           face = face_t'(k);
-          /* Invoke the SystemVerilog covergroup "sample()" method and
-             add 1 sample to the coverage model "cg"
+          /* Program Sequence - 3. 
+             Invoke the SystemVerilog covergroup "sample()" method and add 1
+             sample to the coverage model "cg"
            */
           cg.sample();
         end
@@ -215,7 +218,9 @@ program top;
 
     // "MyTest" class object constructor
     myTest = new;
-    // Invoke the "run()" method of the "MyTest" class object.
+    /* Program Sequence - 1. 
+       Invoke the "run()" method of the "MyTest" class object.
+     */
     myTest.run();
   end
 endprogram
