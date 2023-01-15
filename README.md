@@ -8,7 +8,7 @@ __*systemverilog coverage constructs*__, __*coverage sampling*__
 Coverage is at the core of every functional verification effort. This is embodied by the SystemVerilog HVL in two ways. And the covergroup coverage construct is one of them. In a nutshell, to use a covergroup, you have to define the coverage model using coverpoints and cross coverage, and then associate its sampling to either a sensitivity "@" or by invoking the "sample()" method every time you intend to add the current state of the coverage model into your coverage database [1].
 
 The source code uses a class object with a few class members and a coverage model. It uses a program with the following sequence:
-1. Invoke the "run()" method of the "MyTest" instance in the SystemVerilog program to iterate:
+1. Invoking the "run()" method of the "MyTest" instance in the SystemVerilog program to iterate:
 2. Assigning the current value of the nested loop to the class member fields; and
 3. Invoking the covergroup "sample()" method.
 
