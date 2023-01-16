@@ -23,4 +23,4 @@ EDA Playground Example - Covergroup Cross https://www.edaplayground.com/x/2xD8
 [2] D. Smith and J. Aynsley, “A Practical Look at SystemVerilog Coverage – Tips, Tricks, and Gotchas,” presented at the DVCon, United States, Mar. 2011.
 
 ## Note to reader
-The review content including analysis, diagrams and overall presentation of the topic is Martin's original contribution.
+The review content including comments to the original source code, analysis, diagrams and overall presentation of the topic is Martin's original contribution.
