@@ -12,7 +12,7 @@ The source code uses a class object with a few class members and a coverage mode
 2. Assigning the current value of the nested loop to the class member fields; and
 3. Invoking the covergroup "sample()" method.
 
-![diagram_002 1-functional_coverage_sv_sequence_diagram](https://user-images.githubusercontent.com/50364461/212475474-5a3cb048-7594-42e8-bfc2-d9f5064a8bc6.png)
+![diagram_002 1-functional_coverage_sv_sequence_diagram](https://user-images.githubusercontent.com/50364461/213091259-701aa842-bdb5-4a3c-b497-eb9e93ae4399.png)
 
 ## Simulate & play with the code
 EDA Playground Example - Covergroup Cross https://www.edaplayground.com/x/2xD8
