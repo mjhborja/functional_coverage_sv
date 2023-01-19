@@ -15,7 +15,7 @@ The source code uses a class object with a few class members and a coverage mode
 ![diagram_002 1-functional_coverage_sv_sequence_diagram](https://user-images.githubusercontent.com/50364461/213091259-701aa842-bdb5-4a3c-b497-eb9e93ae4399.png)
 
 ## Simulate & play with the code
-EDA Playground Example - Covergroup Cross https://www.edaplayground.com/x/2xD8
+EDA Playground Example - Covergroup Cross by 山田達也 https://www.edaplayground.com/x/2xD8
 
 ## Additional references
 [1] "IEEE Standard for SystemVerilog--Unified Hardware Design, Specification, and Verification Language," in IEEE Std 1800-2017 (Revision of IEEE Std 1800-2012), vol., no., pp.1-1315, 22 Feb. 2018, doi: 10.1109/IEEESTD.2018.8299595.
